@@ -1,0 +1,443 @@
+{
+    "typeMatches": [
+        {
+            "matchType": "League",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 12123,
+                        "seriesName": "Caribbean Premier League 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 154535,
+                                    "seriesId": 12123,
+                                    "seriesName": "Caribbean Premier League 2026",
+                                    "matchDesc": "22nd Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1788210000000",
+                                    "endDate": "1788222600000",
+                                    "state": "Complete",
+                                    "status": "Guyana Amazon Warriors won by 9 runs (DLS Method), TKR target 182",
+                                    "team1": {
+                                        "teamId": 159,
+                                        "teamName": "Guyana Amazon Warriors",
+                                        "teamSName": "GAW",
+                                        "imageId": 825126
+                                    },
+                                    "team2": {
+                                        "teamId": 271,
+                                        "teamName": "Trinbago Knight Riders",
+                                        "teamSName": "TKR",
+                                        "imageId": 825110
+                                    },
+                                    "venueInfo": {
+                                        "id": 54,
+                                        "ground": "Queen's Park Oval",
+                                        "city": "Port of Spain, Trinidad",
+                                        "timezone": "-04:00",
+                                        "latitude": "10.667461",
+                                        "longitude": "-61.523717"
+                                    },
+                                    "currBatTeamId": 159,
+                                    "seriesStartDt": "1786060800000",
+                                    "seriesEndDt": "1790035200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Complete"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 185,
+                                            "wickets": 5,
+                                            "overs": 15.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 172,
+                                            "wickets": 7,
+                                            "overs": 15.6
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 13073,
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 171097,
+                                    "seriesId": 13073,
+                                    "seriesName": "Sher-E-Punjab T20 League, 2026",
+                                    "matchDesc": "4th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1788247800000",
+                                    "endDate": "1788260400000",
+                                    "state": "Toss",
+                                    "status": "Ludhiana Lions opt to bowl",
+                                    "team1": {
+                                        "teamId": 3571,
+                                        "teamName": "Bathinda Royals",
+                                        "teamSName": "BTR",
+                                        "imageId": 1064855
+                                    },
+                                    "team2": {
+                                        "teamId": 3591,
+                                        "teamName": "Ludhiana Lions",
+                                        "teamSName": "LDL",
+                                        "imageId": 1064856
+                                    },
+                                    "venueInfo": {
+                                        "id": 46,
+                                        "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                        "city": "Mohali",
+                                        "timezone": "+05:30",
+                                        "latitude": "30.690905",
+                                        "longitude": "76.737455"
+                                    },
+                                    "seriesStartDt": "1788048000000",
+                                    "seriesEndDt": "1789430400000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Toss"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "Domestic",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 12376,
+                        "seriesName": "Duleep Trophy 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 163043,
+                                    "seriesId": 12376,
+                                    "seriesName": "Duleep Trophy 2026",
+                                    "matchDesc": "1st Semi-Final",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1788062400000",
+                                    "endDate": "1788346800000",
+                                    "state": "Innings Break",
+                                    "status": "Day 3: Innings Break - Central Zone lead by 158 runs",
+                                    "team1": {
+                                        "teamId": 237,
+                                        "teamName": "Central Zone",
+                                        "teamSName": "CZONE",
+                                        "imageId": 172290
+                                    },
+                                    "team2": {
+                                        "teamId": 235,
+                                        "teamName": "East Zone",
+                                        "teamSName": "EZONE",
+                                        "imageId": 172288
+                                    },
+                                    "venueInfo": {
+                                        "id": 1438087,
+                                        "ground": "BCCI Centre of Excellence Ground 1",
+                                        "city": "Bengaluru",
+                                        "timezone": "+05:30",
+                                        "latitude": "12.978853",
+                                        "longitude": "77.599533"
+                                    },
+                                    "currBatTeamId": 237,
+                                    "seriesStartDt": "1787443200000",
+                                    "seriesEndDt": "1789171200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Ings Break"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 266,
+                                            "wickets": 10,
+                                            "overs": 80.1
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 158,
+                                            "wickets": 10,
+                                            "overs": 50.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 266,
+                                            "wickets": 10,
+                                            "overs": 56.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 163047,
+                                    "seriesId": 12376,
+                                    "seriesName": "Duleep Trophy 2026",
+                                    "matchDesc": "2nd Semi-Final",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1788062400000",
+                                    "endDate": "1788346800000",
+                                    "state": "Lunch",
+                                    "status": "Day 3: Lunch Break - North Zone trail by 65 runs",
+                                    "team1": {
+                                        "teamId": 233,
+                                        "teamName": "North Zone",
+                                        "teamSName": "NZONE",
+                                        "imageId": 172286
+                                    },
+                                    "team2": {
+                                        "teamId": 236,
+                                        "teamName": "South Zone",
+                                        "teamSName": "SZONE",
+                                        "imageId": 172289
+                                    },
+                                    "venueInfo": {
+                                        "id": 1438102,
+                                        "ground": "BCCI Centre of Excellence Ground 2",
+                                        "city": "Bengaluru",
+                                        "timezone": "+05:30",
+                                        "latitude": "13.174092",
+                                        "longitude": "77.706999"
+                                    },
+                                    "currBatTeamId": 233,
+                                    "seriesStartDt": "1787443200000",
+                                    "seriesEndDt": "1789171200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Lunch"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 195,
+                                            "wickets": 10,
+                                            "overs": 59.1
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 52,
+                                            "wickets": 1,
+                                            "overs": 17.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 312,
+                                            "wickets": 10,
+                                            "overs": 100.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 12993,
+                        "seriesName": "ACC Men's Premier Cup, 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 170223,
+                                    "seriesId": 12993,
+                                    "seriesName": "ACC Men's Premier Cup, 2026",
+                                    "matchDesc": "6th Match, Group B",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1788226200000",
+                                    "endDate": "1788255000000",
+                                    "state": "Innings Break",
+                                    "status": "Innings Break",
+                                    "team1": {
+                                        "teamId": 298,
+                                        "teamName": "Kuwait",
+                                        "teamSName": "KUW",
+                                        "imageId": 776312
+                                    },
+                                    "team2": {
+                                        "teamId": 190,
+                                        "teamName": "Singapore",
+                                        "teamSName": "SIN",
+                                        "imageId": 776275
+                                    },
+                                    "venueInfo": {
+                                        "id": 1853,
+                                        "ground": "YSD-UKM Cricket Oval",
+                                        "city": "Bangi",
+                                        "timezone": "+08:00",
+                                        "latitude": "2.9348189",
+                                        "longitude": "101.7823779"
+                                    },
+                                    "currBatTeamId": 298,
+                                    "seriesStartDt": "1788048000000",
+                                    "seriesEndDt": "1789344000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Ings Break"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 249,
+                                            "wickets": 4,
+                                            "overs": 43.4
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 170213,
+                                    "seriesId": 12993,
+                                    "seriesName": "ACC Men's Premier Cup, 2026",
+                                    "matchDesc": "5th Match, Group A",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1788226200000",
+                                    "endDate": "1788255000000",
+                                    "state": "Innings Break",
+                                    "status": "Innings Break",
+                                    "team1": {
+                                        "teamId": 71,
+                                        "teamName": "Malaysia",
+                                        "teamSName": "MLY",
+                                        "imageId": 776319
+                                    },
+                                    "team2": {
+                                        "teamId": 571,
+                                        "teamName": "Saudi Arabia",
+                                        "teamSName": "SAU",
+                                        "imageId": 172623
+                                    },
+                                    "venueInfo": {
+                                        "id": 394,
+                                        "ground": "Bayuemas Oval",
+                                        "city": "Kuala Lumpur",
+                                        "timezone": "+08:00",
+                                        "latitude": "2.819586",
+                                        "longitude": "101.5199"
+                                    },
+                                    "currBatTeamId": 71,
+                                    "seriesStartDt": "1788048000000",
+                                    "seriesEndDt": "1789344000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Ings Break"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 270,
+                                            "wickets": 8,
+                                            "overs": 49.6
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 13033,
+                        "seriesName": "Bangladesh A tour of South Africa, 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 170667,
+                                    "seriesId": 13033,
+                                    "seriesName": "Bangladesh A tour of South Africa, 2026",
+                                    "matchDesc": "2nd Unofficial Test",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1788076800000",
+                                    "endDate": "1788361200000",
+                                    "state": "Stumps",
+                                    "status": "Day 2: Stumps - Bangladesh A trail by 311 runs",
+                                    "team1": {
+                                        "teamId": 268,
+                                        "teamName": "South Africa A",
+                                        "teamSName": "RSAA",
+                                        "imageId": 776296
+                                    },
+                                    "team2": {
+                                        "teamId": 288,
+                                        "teamName": "Bangladesh A",
+                                        "teamSName": "BANA",
+                                        "imageId": 776212
+                                    },
+                                    "venueInfo": {
+                                        "id": 102,
+                                        "ground": "Senwes Park",
+                                        "city": "Potchefstroom",
+                                        "timezone": "+02:00",
+                                        "latitude": "-26.695565",
+                                        "longitude": "27.100691"
+                                    },
+                                    "currBatTeamId": 288,
+                                    "seriesStartDt": "1787443200000",
+                                    "seriesEndDt": "1789344000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Stumps"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 512,
+                                            "wickets": 10,
+                                            "overs": 115.1
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 201,
+                                            "wickets": 4,
+                                            "overs": 57
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ad": {
+                        "name": "native_matches",
+                        "layout": "native_large",
+                        "position": 5
+                    }
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "matchType": [
+            "International",
+            "League",
+            "Domestic",
+            "Women"
+        ]
+    },
+    "appIndex": {
+        "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+        "webURL": "www.cricbuzz.com/live-cricket-scores/"
+    },
+    "responseLastUpdated": "1788247620"
+}
