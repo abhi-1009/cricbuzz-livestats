@@ -19,7 +19,7 @@
 - 📈 **Visual insights** — dedicated charts page (team wins, format split, player roles, toss advantage, top scorers)
 - 🎨 **Custom theming** — dark UI with a distinct accent color per page
 
-> **Live App:** _Add your deployed Streamlit Cloud URL here_
+> **Live App:** https://cricbuzz-livestats-4f9rpyqumzwm6zbesbs63d.streamlit.app/
 
 ---
 
@@ -53,7 +53,7 @@ CricbuzzLiveStats/
 │   ├── __pycache__
 │   ├── styling.py           # Shared CSS + per-page accent colors/backgrounds
 │   ├── config.py            # Reads secrets from .env (local) or st.secrets (Streamlit Cloud)
-│   └── db_connection.py     # # MySQL connection helper (works with local MySQL or Aiven)
+│   └── db_connection.py     # MySQL connection helper (works with local MySQL or Aiven)
 ├── pages/            
 │   ├── Live Match.py
 │   ├── Top Player Stats.py

@@ -70,19 +70,19 @@ with st.expander("📁 View project folder structure"):
 CricbuzzLiveStats/
 ├── __pycache__
 ├── .streamlit
-│   └──config.toml
+│   └──config.toml           # Global theme (dark background, accent color, font)
 ├── .env                     # API keys & DB credentials (not committed)
 ├── .gitignore
 ├── requirements.txt
 ├── api_client.py            # Cricbuzz API wrapper functions
-├── home.py   
-├── generate_seed_data.py    # One-time seed data generator
+├── home.py                  # Home page (Streamlit entry point)
+├── generate_seed_data.py    # Engineered seed data generator
 ├── README.md
 ├── utils/
 │   ├── __pycache__
-│   ├── styling.py
-│   ├── config.py
-│   └── db_connection.py     # MySQL connection helper
+│   ├── styling.py           # Shared CSS + per-page accent colors/backgrounds
+│   ├── config.py            # Reads secrets from .env (local) or st.secrets (Streamlit Cloud)
+│   └── db_connection.py     # MySQL connection helper (works with local MySQL or Aiven)
 ├── pages/            
 │   ├── Live Match.py
 │   ├── Top Player Stats.py
