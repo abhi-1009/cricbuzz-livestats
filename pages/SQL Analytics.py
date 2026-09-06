@@ -390,12 +390,11 @@ if st.button("▶️ Run Query"):
         st.error("Could not connect to the database. Check your .env MySQL settings.")
     else:
         try:
-            cursor = conn.cursor(dictionary=True)
-            cursor.execute(QUERIES[selected_question])
-            results = cursor.fetchall()
-            cursor.close()
-            conn.close()
-            
+            with conn:
+                with conn.cursor(dictionary=True) as cursor:
+                    cursor.execute(QUERIES[selected_question])
+                    results = cursor.fetchall()
+
             if results:
                 df = pd.DataFrame(results)
                 st.dataframe(df, use_container_width=True, hide_index=True)
@@ -403,12 +402,14 @@ if st.button("▶️ Run Query"):
 
                 csv = df.to_csv(index=False).encode("utf-8")
                 st.download_button(
-                "⬇️ Download results as CSV",
-                data=csv,
-                file_name=f"{selected_question.split(':')[0].replace(' ', '_')}.csv",
-                mime="text/csv"
-            )
+                    "⬇️ Download results as CSV",
+                    data=csv,
+                    file_name=f"{selected_question.split(':')[0].replace(' ', '_')}.csv",
+                    mime="text/csv"
+                )
             else:
-                st.info("Query ran successfully but returned no rows...")
-        except Exception as e:																				
-                st.error(f"Query failed: {e}")	 
+                st.info("Query ran successfully but returned no rows — likely because your seed data doesn't meet this query's thresholds yet.")
+        except Exception as e:
+            st.error(f"Query failed: {e}")
+        finally:
+            conn.close()

@@ -16,27 +16,23 @@ st.title("🛠️ CRUD Operations")
 st.caption("Create, Read, Update, and Delete player and match records directly in the database.")
 
 def run_query(query, params=None, fetch=False):
-    """Execute a query. Returns rows if fetch=True, else commits and returns affected row count."""
     conn = get_connection()
     if conn is None:
         st.error("Could not connect to the database.")
         return None
     try:
-        cursor = conn.cursor(dictionary=True)
-        cursor.execute(query, params or ())
-        if fetch:
-            result = cursor.fetchall()
-        else:
-            conn.commit()
-            result = cursor.rowcount
-        cursor.close()
-        conn.close()
-        return result
+        with conn:
+            with conn.cursor(dictionary=True) as cursor:
+                cursor.execute(query, params or ())
+                if fetch:
+                    return cursor.fetchall()
+                conn.commit()
+                return cursor.rowcount
     except Exception as e:
         st.error(f"Database error: {e}")
-        conn.close()
         return None
-
+    finally:
+        conn.close()
 
 def get_lookup(query):
     """Returns list of (id, label) tuples for dropdowns."""

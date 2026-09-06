@@ -58,8 +58,9 @@ CricbuzzLiveStats/
 │   ├── Live Match.py
 │   ├── Top Player Stats.py
 │   ├── SQL Analytics.py
+│   ├── CRUD Operations.py    
 │   ├── Visualizations.py
-│   └── CRUD Operations.py
+│   └── Conclusion.py
 ├── sql/
 │   ├── schema_mysql.sql     # Database schema (CREATE TABLE statements)
 │   ├── seed_data.sql        # Initial small seed dataset

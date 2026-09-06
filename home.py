@@ -11,8 +11,6 @@ apply_custom_style()
 apply_page_accent("#1A237E")
 
 st.title("🏏 Cricbuzz LiveStats")
-# st.logo("logo.png", icon_image="logo.png", size="large")
-# st.logo("logo.png", size="large")
 st.subheader("Real-Time Cricket Insights & SQL-Based Analytics")
 
 st.markdown("""
@@ -87,8 +85,9 @@ CricbuzzLiveStats/
 │   ├── Live Match.py
 │   ├── Top Player Stats.py
 │   ├── SQL Analytics.py
+│   ├── CRUD Operations.py    
 │   ├── Visualizations.py
-│   └── CRUD Operations.py
+│   └── Conclusion.py
 ├── sql/
 │   ├── schema_mysql.sql     # Database schema (CREATE TABLE statements)
 │   ├── seed_data.sql        # Initial small seed dataset
@@ -99,4 +98,4 @@ CricbuzzLiveStats/
     """, language="text")
 
 st.divider()
-st.caption("Built as part of the Cricbuzz LiveStats project.")
+st.caption("Built as part of the Cricbuzz LiveStats project. See the Conclusion page for insights, recommendations, and limitations.")
