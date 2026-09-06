@@ -55,12 +55,12 @@ CricbuzzLiveStats/
 │   ├── config.py            # Reads secrets from .env (local) or st.secrets (Streamlit Cloud)
 │   └── db_connection.py     # MySQL connection helper (works with local MySQL or Aiven)
 ├── pages/            
-│   ├── Live Match.py
-│   ├── Top Player Stats.py
-│   ├── SQL Analytics.py
-│   ├── CRUD Operations.py    
-│   ├── Visualizations.py
-│   └── Conclusion.py
+│   ├── 1_Live_Match.py
+│   ├── 2_Top_Player_Stats.py
+│   ├── 3_SQL_Analytics.py
+│   ├── 4_CRUD_Operations.py    
+│   ├── 5_Visualizations.py
+│   └── 6_Conclusion.py
 ├── sql/
 │   ├── schema_mysql.sql     # Database schema (CREATE TABLE statements)
 │   ├── seed_data.sql        # Initial small seed dataset

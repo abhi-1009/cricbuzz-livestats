@@ -135,3 +135,8 @@ SELECT COUNT(*) FROM players;
 SELECT COUNT(*) FROM batting_stats;
 SELECT COUNT(*) FROM bowling_stats;
 SELECT COUNT(*) FROM fielding_stats;
+
+SELECT COUNT(*) FROM players;
+select * from players;
+select * from matches;
+SELECT * FROM matches WHERE match_date = '2026-09-06';
